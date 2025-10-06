@@ -1,4 +1,5 @@
 import { Facebook, Instagram, Youtube, Mail } from "lucide-react";
+import logoBranco from "@/assets/logo-branco.png";
 
 const Footer = () => {
   const socialLinks = [
@@ -13,6 +14,11 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto space-y-8">
           <div className="text-center space-y-6">
+            <img 
+              src={logoBranco} 
+              alt="IPRCM Logo" 
+              className="h-16 md:h-20 w-auto mx-auto"
+            />
             <h3 className="text-2xl md:text-3xl font-bold">IPRCM Arena</h3>
             
             <p className="text-lg font-light max-w-2xl mx-auto">

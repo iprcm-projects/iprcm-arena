@@ -1,6 +1,7 @@
 import { ArrowDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
+import logoBranco from "@/assets/logo-branco.png";
 
 const Hero = () => {
   const scrollToSports = () => {
@@ -15,8 +16,13 @@ const Hero = () => {
     >
       <div className="container mx-auto px-4 text-center z-10">
         <div className="max-w-4xl mx-auto space-y-8 animate-fade-in">
-          <div className="mb-8">
-            <h2 className="text-2xl md:text-3xl font-light text-primary-foreground mb-4 tracking-wide">
+          <div className="mb-8 flex flex-col items-center gap-6">
+            <img 
+              src={logoBranco} 
+              alt="IPRCM Logo" 
+              className="h-20 md:h-24 w-auto"
+            />
+            <h2 className="text-2xl md:text-3xl font-light text-primary-foreground tracking-wide">
               Mais que esporte, comunhão em movimento.
             </h2>
           </div>
