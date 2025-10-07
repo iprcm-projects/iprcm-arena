@@ -10,8 +10,12 @@ const Festival = () => {
           </div>
           
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Festival de Esportes de Inauguração
+            Inauguração
           </h2>
+
+          <p className="text-xl md:text-2xl font-light leading-relaxed max-w-2xl mx-auto mt-8">
+            Participe de um momento especial de celebração, alegria e comunhão esportiva.
+          </p>
           
           <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-xl md:text-2xl font-light">
             <div className="flex items-center gap-3">
@@ -27,12 +31,10 @@ const Festival = () => {
             </div>
           </div>
           
-          <p className="text-xl md:text-2xl font-light leading-relaxed max-w-2xl mx-auto mt-8">
-            Participe de um momento especial de celebração, alegria e comunhão esportiva.
-          </p>
           
-          <div className="mt-12 p-6 bg-warning text-warning-foreground rounded-lg inline-flex items-start gap-4 max-w-2xl">
-            <AlertTriangle className="h-6 w-6 flex-shrink-0 mt-1" />
+          
+          <div className="mt-12 p-4 bg-warning text-warning-foreground rounded-lg inline-flex items-start gap-4 max-w-2xl">
+            <AlertTriangle className="h-4 w-6 flex-shrink-0 mt-1" />
             <p className="text-left font-medium">
               Em caso de chuva, o evento será cancelado.
             </p>

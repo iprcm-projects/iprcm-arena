@@ -1,27 +1,27 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button"; 
 import { ExternalLink } from "lucide-react";
-import beachTennis from "@/assets/beach-tennis.jpg";
-import beachVolleyball from "@/assets/beach-volleyball.jpg";
-import tableTennis from "@/assets/table-tennis.jpg";
+import beachTennis from "@/assets/beach-tennis.png";
+import beachVolleyball from "@/assets/beach-volleyball.png";
+import tableTennis from "@/assets/table-tennis.png";
 
 const sports = [
   {
     title: "Beach Tennis",
     image: beachTennis,
     description: "Diversão na areia com raquetes e bola",
-    link: "#", // Substituir com link real
+    link: "https://tally.so/r/wA1Wy0", // Substituir com link real
   },
   {
     title: "Vôlei de Areia",
     image: beachVolleyball,
-    description: "Jogo em equipe cheio de energia",
-    link: "#", // Substituir com link real
+    description: "Jogo em duplas cheio de energia",
+    link: "https://tally.so/r/wdBQzq", // Substituir com link real
   },
   {
     title: "Tênis de Mesa",
     image: tableTennis,
-    description: "Reflexos rápidos e precisão",
-    link: "#", // Substituir com link real
+    description: "Teste seus reflexos e precisão",
+    link: "https://tally.so/r/mV2oNJ", // Substituir com link real
   },
 ];
 
@@ -35,6 +35,9 @@ const Sports = () => {
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Escolha sua modalidade favorita e participe do festival de inauguração
+          </p>
+          <p className="text-sm text-destructive font-medium mt-4">
+            Atenção: As vagas são limitadas e a inscrição é permitida em apenas uma modalidade por pessoa.
           </p>
         </div>
         
