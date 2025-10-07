@@ -19,15 +19,15 @@ const Footer = () => {
             <img 
               src={logoBranco} 
               alt="IPRCM Logo" 
-              className="h-10 md:h-12 w-auto mx-auto"
+              className="h-8 md:h-10 w-auto mx-auto"
             />
-            <h3 className="text-lg md:text-xl font-bold">IPRCM Arena</h3>
+            {/* <h3 className="text-lg md:text-xl font-bold">IPRCM Arena</h3>
             
             <p className="text-sm font-light max-w-2xl mx-auto">
               Um espaço de integração e comunhão entre irmãos.
-            </p>
+            </p> */}
             
-            <div className="flex items-center justify-center gap-4 pt-2">
+            {/* <div className="flex items-center justify-center gap-4 pt-2">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -40,14 +40,14 @@ const Footer = () => {
                   <social.icon className="h-4 w-4" />
                 </a>
               ))}
-            </div>
+            </div> */}
           
           
-          <div className="border-t border-primary-foreground/20 pt-8 text-center">
+          {/* <div className="border-t border-primary-foreground/20 pt-8 text-center"> */}
             <p className="text-xs font-light">
               © 2025 IPRCM. Todos os direitos reservados.
             </p>
-          </div>
+          {/* </div> */}
         </div>
       </div>
     </footer>
