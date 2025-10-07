@@ -17,7 +17,7 @@ const Footer = () => {
             <img 
               src={logoBranco} 
               alt="IPRCM Logo" 
-              className="h-16 md:h-20 w-auto mx-auto"
+              className="h-12 md:h-14 w-auto mx-auto"
             />
             <h3 className="text-2xl md:text-3xl font-bold">IPRCM Arena</h3>
             

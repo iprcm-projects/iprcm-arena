@@ -20,7 +20,7 @@ const Hero = () => {
             <img 
               src={logoBranco} 
               alt="IPRCM Logo" 
-              className="h-20 md:h-24 w-auto"
+              className="h-14 md:h-16 w-auto"
             />
             <h2 className="text-2xl md:text-3xl font-light text-primary-foreground tracking-wide">
               Mais que esporte, comunhão em movimento.
