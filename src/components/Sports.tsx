@@ -15,7 +15,7 @@ const sports = [
     title: "Vôlei de Areia",
     image: beachVolleyball,
     description: "Jogo em duplas cheio de energia",
-    link: "https://tally.so/r/wdBQzq", // Substituir com link real
+    link: "https://iprcm.notion.site/volei", // Substituir com link real
   },
   {
     title: "Tênis de Mesa",
